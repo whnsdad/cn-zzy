@@ -9,11 +9,10 @@
     </parent>
 
 
-
     <artifactId>main-program-boot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>main-program-boot</name>
-    <description>main-program-boot</description>
+    <description>启动层</description>
 
 
     <properties>
@@ -34,16 +33,34 @@
             <version>8.0.32</version>
         </dependency>
 
+        <!-- 启动 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!--其他子模块-->
+        <dependency>
+            <groupId>cn.zzy</groupId>
+            <artifactId>main-program-adapter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.zzy</groupId>
+            <artifactId>main-program-app</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.zzy</groupId>
+            <artifactId>main-program-domain</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <build>

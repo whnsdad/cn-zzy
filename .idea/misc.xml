@@ -6,6 +6,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/main-program-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/main-program-adapter/pom.xml" />
+        <option value="$PROJECT_DIR$/main-program-app/pom.xml" />
+        <option value="$PROJECT_DIR$/main-program-domain/pom.xml" />
       </list>
     </option>
   </component>

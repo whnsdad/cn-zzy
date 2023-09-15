@@ -20,7 +20,10 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>main-program-adapter</module>
         <module>main-program-boot</module>
+        <module>main-program-app</module>
+        <module>main-program-domain</module>
     </modules>
 
 </project>
