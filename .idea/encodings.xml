@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/main-program-app/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/main-program-boot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/main-program-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/main-program-infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/main-program-infrastructure/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

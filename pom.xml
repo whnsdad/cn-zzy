@@ -24,6 +24,7 @@
         <module>main-program-boot</module>
         <module>main-program-app</module>
         <module>main-program-domain</module>
+        <module>main-program-infrastructure</module>
     </modules>
 
 </project>

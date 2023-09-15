@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/main-program-adapter/pom.xml" />
         <option value="$PROJECT_DIR$/main-program-app/pom.xml" />
         <option value="$PROJECT_DIR$/main-program-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/main-program-infrastructure/pom.xml" />
       </list>
     </option>
   </component>

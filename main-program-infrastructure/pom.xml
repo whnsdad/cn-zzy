@@ -8,11 +8,13 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>main-program-adapter</artifactId>
+
+    <artifactId>main-program-infrastructure</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>main-program-adapter</name>
-    <description>适配层</description>
+    <name>main-program-infrastructure</name>
+    <description>main-program-infrastructure</description>
+
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -29,18 +31,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
-
-        <!--knife4j-->
-        <dependency>
-            <groupId>com.github.xiaoymin</groupId>
-            <artifactId>knife4j-spring-boot-starter</artifactId>
-            <version>3.0.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-
     </dependencies>
 
     <build>
