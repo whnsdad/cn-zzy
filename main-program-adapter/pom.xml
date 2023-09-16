@@ -41,6 +41,13 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
+        <!--依赖app模块-->
+        <dependency>
+            <groupId>cn.zzy</groupId>
+            <artifactId>main-program-app</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <build>
