@@ -76,6 +76,11 @@
             <artifactId>main-program-infrastructure</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>cn.zzy</groupId>
+            <artifactId>sub-program-tools</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
     </dependencies>
 

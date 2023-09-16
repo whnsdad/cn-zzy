@@ -25,6 +25,7 @@
         <module>main-program-app</module>
         <module>main-program-domain</module>
         <module>main-program-infrastructure</module>
+        <module>sub-program-tools</module>
     </modules>
 
 </project>

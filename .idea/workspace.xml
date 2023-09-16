@@ -5,21 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45908d-c35a-4e43-8d95-f68d034ca65a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/DO/MenuDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/VO/MenuTreeVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/test/java/cn/zzy/VO/MenuTreeVOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/menuTreeTools/MenuToTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/menuTreeTools/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/menuController/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/menuController/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/menuController/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/menuController/MenuController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/MenuService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/service/MenuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/src/main/java/cn/zzy/MainProgramBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/src/main/java/cn/zzy/MainProgramBootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/classes/cn/zzy/MainProgramBootApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/target/classes/cn/zzy/MainProgramBootApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/target/main-program-boot-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/target/main-program-boot-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/target/surefire-reports/TEST-cn.zzy.MainProgramBootApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/target/surefire-reports/cn.zzy.MainProgramBootApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/target/test-classes/cn/zzy/MainProgramBootApplicationTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/MenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +43,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -65,6 +78,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "jdk.selected.JAVA_MODULE": "18",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -79,6 +94,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.zzy.VO" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -87,6 +110,22 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MainProgramBootApplication">
+    <configuration name="MenuTreeVOTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="main-program-infrastructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zzy.VO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.zzy.VO" />
+      <option name="MAIN_CLASS_NAME" value="cn.zzy.VO.MenuTreeVOTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainProgramAdapterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="main-program-adapter" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zzy.MainProgramAdapterApplication" />
@@ -129,6 +168,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubProgramToolsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sub-program-tools" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.zzy.SubProgramToolsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MenuTreeVOTest.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -138,7 +189,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694778850011</updated>
-      <workItem from="1694779020854" duration="5400000" />
+      <workItem from="1694779020854" duration="9451000" />
     </task>
     <servers />
   </component>

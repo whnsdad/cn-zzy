@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/main-program-app/pom.xml" />
         <option value="$PROJECT_DIR$/main-program-domain/pom.xml" />
         <option value="$PROJECT_DIR$/main-program-infrastructure/pom.xml" />
+        <option value="$PROJECT_DIR$/sub-program-tools/pom.xml" />
       </list>
     </option>
   </component>

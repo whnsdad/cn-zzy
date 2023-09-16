@@ -60,6 +60,12 @@
             <artifactId>main-program-infrastructure</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <!--依赖tools模块-->
+        <dependency>
+            <groupId>cn.zzy</groupId>
+            <artifactId>sub-program-tools</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
