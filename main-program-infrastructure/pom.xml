@@ -20,17 +20,7 @@
     </properties>
 
     <dependencies>
-        <!--web-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
 
-        <!-- lombok -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
 
         <!-- mybatis-plus -->
         <dependency>
@@ -71,13 +61,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!--junit4 -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
-        
         <!--aop-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

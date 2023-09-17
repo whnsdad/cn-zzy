@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45908d-c35a-4e43-8d95-f68d034ca65a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/annotation/LogOnAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/annotation/LogOnAopAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/menuController/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/menuController/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/test/java/cn/zzy/MainProgramAdapterApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/menuController/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/menuController/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/VO/MenuTreeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/vo/MenuTreeVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/tools/UserInfoPropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/tools/UserInfoPropertiesUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/test/java/cn/zzy/VO/MenuTreeVOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/test/java/cn/zzy/vo/MenuTreeVOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/target/classes/cn/zzy/VO/MenuTreeVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/target/classes/cn/zzy/VO/MenuTreeVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub-program-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/target/classes/cn/zzy/jsonPrintBeauty/PrintBeautyJSON.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +102,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MenuControllerTest.test">
+  <component name="RunManager" selected="Spring Boot.MainProgramBootApplication">
     <configuration name="MenuControllerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="main-program-adapter" />
       <extension name="coverage">
@@ -257,7 +251,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694778850011</updated>
       <workItem from="1694779020854" duration="10221000" />
-      <workItem from="1694916842793" duration="18136000" />
+      <workItem from="1694916842793" duration="19258000" />
     </task>
     <servers />
   </component>
