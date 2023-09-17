@@ -1,6 +1,8 @@
 package cn.zzy.tools;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.stereotype.Component;
 
 import java.util.*;
 
@@ -14,6 +16,8 @@ import java.util.*;
  */
 
 @Slf4j
+@Component
+@PropertySource(value = "classpath:user-info.properties")
 public class UserInfoPropertiesUtil {
 
     private static final String FILE_NAME = "user-info.properties";
