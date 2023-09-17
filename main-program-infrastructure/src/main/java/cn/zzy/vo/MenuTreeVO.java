@@ -1,4 +1,4 @@
-package cn.zzy.VO;
+package cn.zzy.vo;
 
 import cn.zzy.DO.MenuDO;
 import cn.zzy.menuTreeTools.TreeNode;

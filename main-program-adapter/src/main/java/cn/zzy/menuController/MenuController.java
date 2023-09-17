@@ -1,5 +1,6 @@
 package cn.zzy.menuController;
 
+import cn.zzy.annotation.LogOnAop;
 import cn.zzy.commonDomain.Result;
 import cn.zzy.service.MenuService;
 import com.alibaba.fastjson2.JSONArray;
@@ -23,8 +24,8 @@ public class MenuController {
 
     @PostMapping("/list")
     @ApiOperation("查询所有菜单(按树形返回)")
+    @LogOnAop
     public Result<JSONArray> getAllMenusTree() {
-        log.info("接口暴露成功");
         return Result.success(menuService.getAllMenusTree());
     }
 }

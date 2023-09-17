@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45908d-c35a-4e43-8d95-f68d034ca65a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/annotation/LogOnAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/annotation/LogOnAopAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/menuController/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/menuController/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/test/java/cn/zzy/MainProgramAdapterApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/menuController/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/menuController/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/VO/MenuTreeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/vo/MenuTreeVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/tools/UserInfoPropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/tools/UserInfoPropertiesUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/resources/user-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/target/classes/cn/zzy/tools/UserInfoPropertiesUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/target/classes/cn/zzy/tools/UserInfoPropertiesUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/target/classes/user-info.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/test/java/cn/zzy/VO/MenuTreeVOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/test/java/cn/zzy/vo/MenuTreeVOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/target/classes/cn/zzy/VO/MenuTreeVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/target/classes/cn/zzy/VO/MenuTreeVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +30,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
+        <option value="AnnotationType" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,6 +94,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.zzy.menuController" />
       <recent name="cn.zzy.tools" />
       <recent name="cn.zzy.impl" />
       <recent name="cn.zzy.menuTreeTools" />
@@ -96,7 +108,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainProgramBootApplication">
+  <component name="RunManager" selected="JUnit.MenuControllerTest.test">
+    <configuration name="MenuControllerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="main-program-adapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zzy.menuController.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.zzy.menuController" />
+      <option name="MAIN_CLASS_NAME" value="cn.zzy.menuController.MenuControllerTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MenuServiceImplTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="main-program-app" />
       <extension name="coverage">
@@ -117,12 +145,12 @@
       <module name="main-program-infrastructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zzy.VO.*" />
+          <option name="PATTERN" value="cn.zzy.vo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.zzy.VO" />
-      <option name="MAIN_CLASS_NAME" value="cn.zzy.VO.MenuTreeVOTest" />
+      <option name="MAIN_CLASS_NAME" value="cn.zzy.vo.MenuTreeVOTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -212,6 +240,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MenuControllerTest.test" />
         <item itemvalue="JUnit.UserInfoPropertiesUtilTest.test2" />
         <item itemvalue="JUnit.UserInfoPropertiesUtilTest.test" />
         <item itemvalue="JUnit.MenuServiceImplTest.test" />
@@ -228,7 +257,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694778850011</updated>
       <workItem from="1694779020854" duration="10221000" />
-      <workItem from="1694916842793" duration="11536000" />
+      <workItem from="1694916842793" duration="18136000" />
     </task>
     <servers />
   </component>

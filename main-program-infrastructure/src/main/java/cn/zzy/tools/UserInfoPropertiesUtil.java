@@ -17,7 +17,7 @@ import java.util.*;
 
 @Slf4j
 @Component
-@PropertySource(value = "classpath:user-info.properties")
+@PropertySource(value = "classpath:user-info.properties")  // 跨模块读取文件
 public class UserInfoPropertiesUtil {
 
     private static final String FILE_NAME = "user-info.properties";
