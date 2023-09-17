@@ -1,6 +1,8 @@
 package cn.zzy.menuController;
 
+import cn.zzy.commonDomain.Result;
 import cn.zzy.service.MenuService;
+import com.alibaba.fastjson2.JSONArray;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -20,9 +22,9 @@ public class MenuController {
     private MenuService menuService;
 
     @PostMapping("/list")
-    @ApiOperation("查询所有菜单")
-    public void getAllMenus() {
+    @ApiOperation("查询所有菜单(按树形返回)")
+    public Result<JSONArray> getAllMenusTree() {
         log.info("接口暴露成功");
-        menuService.getAllMenus();
+        return Result.success(menuService.getAllMenusTree());
     }
 }
