@@ -7,6 +7,9 @@ import lombok.EqualsAndHashCode;
 import lombok.ToString;
 import lombok.experimental.Accessors;
 
+import java.io.Serial;
+import java.io.Serializable;
+
 /**
  * @Author Ziyun Zhou
  * @Date 2023/9/16 13:02
@@ -19,8 +22,10 @@ import lombok.experimental.Accessors;
 @Data
 @Accessors(chain = true)
 @ToString(callSuper = true)  // 这样打印子类会带出父类属性
-public class MenuTreeVO extends TreeNode {
+public class MenuTreeVO extends TreeNode implements Serializable {
 
+    @Serial
+    private static final long serialVersionUID = -3059173159152518558L;
     private String name;
     private int level;
     private String createUser;

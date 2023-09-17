@@ -66,6 +66,13 @@
             <artifactId>sub-program-tools</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+        <!-- fastjson -->
+        <dependency>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <artifactId>fastjson2</artifactId>
+            <version>2.0.7</version>
+        </dependency>
     </dependencies>
 
     <build>

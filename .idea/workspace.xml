@@ -5,33 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45908d-c35a-4e43-8d95-f68d034ca65a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/VO/MenuTreeVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/test/java/cn/zzy/VO/MenuTreeVOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/menuTreeTools/MenuToTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/menuTreeTools/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/menuTreeTools/TreeListToJSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sub-program-tools/src/test/java/cn/zzy/menuTreeTools/TreeListToJSONTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/main-program-boot-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/main-program-boot-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/surefire-reports/TEST-cn.zzy.MainProgramBootApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/surefire-reports/cn.zzy.MainProgramBootApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/test-classes/cn/zzy/MainProgramBootApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/MenuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/VO/MenuTreeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/VO/MenuTreeVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/menuTreeTools/MenuToTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/menuTreeTools/MenuToTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/target/classes/cn/zzy/menuTreeTools/MenuToTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/target/classes/cn/zzy/menuTreeTools/MenuToTree.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +76,7 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.keymap",
     "settings.editor.splitter.proportion": "0.26985744",
+    "spring.configuration.checksum": "008a6293d788f6f2d520e1ffaac32f7d",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -99,6 +85,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.zzy.menuTreeTools" />
       <recent name="cn.zzy.VO" />
     </key>
   </component>
@@ -189,7 +176,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694778850011</updated>
-      <workItem from="1694779020854" duration="9451000" />
+      <workItem from="1694779020854" duration="10221000" />
+      <workItem from="1694916842793" duration="2292000" />
     </task>
     <servers />
   </component>

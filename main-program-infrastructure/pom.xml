@@ -70,6 +70,8 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!--junit4 -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

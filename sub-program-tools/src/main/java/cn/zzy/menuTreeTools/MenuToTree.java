@@ -34,14 +34,16 @@ public class MenuToTree {
         }
 
         List<T> nodeTree = new ArrayList<>();
-        Map<String, T> nodeMap = new HashMap<>(nodes.size());         // (1)
+        Map<String, T> nodeMap = new HashMap<>(nodes.size());  // key是菜单id，T是菜单实例
         Class<T> clazz = (Class<T>) nodes.get(0).getClass();        // (2)
         for (T t : nodes) {
-            t.getChildren().addAll(nodeMap.containsKey(t.getId()) ? nodeMap.get(t.getId()).getChildren() : new ArrayList<>());// (3)
+            t.getChildren().addAll(nodeMap.containsKey(t.getId())
+                    ? nodeMap.get(t.getId()).getChildren()
+                    : new ArrayList<>());// (3)
             nodeMap.put(t.getId(), t);  // (4)
 
-            if (null == t.getParentId() || "0".equals(t.getParentId())) {    // (5)
-                nodeTree.add(t);
+            if (null == t.getParentId() || "0".equals(t.getParentId())) {  // 只有根菜单的parentId才会是0
+                nodeTree.add(t);  // 根菜单直接往list放
             } else {
                 if (!nodeMap.containsKey(t.getParentId())) {  // (6)
                     T instance = null;

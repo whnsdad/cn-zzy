@@ -4,6 +4,7 @@ import cn.zzy.DO.MenuDO;
 import cn.zzy.VO.MenuTreeVO;
 import cn.zzy.mapper.MenuMapper;
 import cn.zzy.menuTreeTools.MenuToTree;
+import cn.zzy.menuTreeTools.TreeListToJSON;
 import cn.zzy.service.MenuService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
@@ -18,10 +19,13 @@ public class MenuServiceImpl extends ServiceImpl<MenuMapper, MenuDO> implements 
     @Override
     public void getAllMenus() {
         List<MenuDO> menuDOList = list();
-        List<MenuTreeVO> menuTreeVOS = menuDOList.stream().map(MenuTreeVO::to).collect(Collectors.toList());
-        log.info(menuTreeVOS.toString());
-        List<MenuTreeVO> convert = MenuToTree.convert(menuTreeVOS);
+        List<MenuTreeVO> menuVOList = menuDOList.stream().map(MenuTreeVO::to).collect(Collectors.toList());  // DO转VO
+        List<MenuTreeVO> convert = MenuToTree.convert(menuVOList);
         convert.forEach(System.out::println);
+
+        String treeJSON = TreeListToJSON.convertTreeToJson(convert);
+        System.out.println(treeJSON);
+
 
     }
 }
