@@ -5,22 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45908d-c35a-4e43-8d95-f68d034ca65a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/KeyStringRedisSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/MyRedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-boot/src/main/resources/redis-prefix.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/purchase/PurchaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/PurchaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/PurchaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dto/purchase/OrderDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/menuController/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/menuController/MenuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/menuController/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/menuController/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/test-classes/cn/zzy/menuController/MenuControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/target/test-classes/cn/zzy/impl/MenuServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/BaseKnife4jConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/knife4j/BaseKnife4jConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/KeyStringRedisSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/Knife4jConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/knife4j/Knife4jConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/Knife4jProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/knife4j/Knife4jProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/MyRedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/BaseKnife4jConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/KeyStringRedisSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/Knife4jConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/Knife4jProperties$Knife4jPropertiesBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/Knife4jProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/MyRedisConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-boot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/src/main/resources/user-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/src/main/resources/user-info.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/classes/user-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/target/classes/user-info.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/target/test-classes/cn/zzy/tools/UserInfoPropertiesUtilTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/target/test-classes/cn/zzy/vo/MenuTreeVOTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sub-program-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-program-tools/target/test-classes/cn/zzy/menuTreeTools/TreeListToJSONTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,34 +62,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "D:/2022/0000WorkSpace/main-program/main-program-infrastructure/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "settings.editor.splitter.proportion": "0.26985744",
-    "spring.configuration.checksum": "008a6293d788f6f2d520e1ffaac32f7d",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/2022/0000WorkSpace/main-program/main-program-infrastructure/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.26985744&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;237a1c3887b63b8949fd3b6d4ae06f67&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\2022\0000WorkSpace\main-program\main-program-infrastructure\src\main\resources" />
@@ -258,7 +262,10 @@
       <option name="presentableId" value="Default" />
       <updated>1694778850011</updated>
       <workItem from="1694779020854" duration="10221000" />
-      <workItem from="1694916842793" duration="26550000" />
+      <workItem from="1694916842793" duration="27190000" />
+      <workItem from="1695001038632" duration="669000" />
+      <workItem from="1695010253372" duration="3566000" />
+      <workItem from="1695034955102" duration="1807000" />
     </task>
     <servers />
   </component>

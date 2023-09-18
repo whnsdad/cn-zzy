@@ -1,4 +1,4 @@
-package cn.zzy.config;
+package cn.zzy.config.knife4j;
 
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.oas.annotations.EnableOpenApi;

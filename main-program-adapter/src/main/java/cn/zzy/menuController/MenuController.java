@@ -7,8 +7,6 @@ import com.alibaba.fastjson2.JSONArray;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,15 +28,7 @@ public class MenuController {
     public Result<JSONArray> getAllMenusTree() {
         return Result.success(menuService.getAllMenusTree());
     }
+    
 
-    @Autowired
-    private RedisTemplate<String, String> redisTemplate = new RedisTemplate<>();
-
-    @PostMapping("/redis")
-    public void testRedis() {
-        
-        redisTemplate.opsForValue().set("k0", "v0");
-
-        System.out.println(redisTemplate.opsForValue().get("k0"));
-    }
 }
+

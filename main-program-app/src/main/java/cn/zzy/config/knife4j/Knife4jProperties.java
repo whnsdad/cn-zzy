@@ -1,4 +1,4 @@
-package cn.zzy.config;
+package cn.zzy.config.knife4j;
 
 import lombok.Builder;
 import lombok.Data;
