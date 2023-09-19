@@ -13,30 +13,30 @@ spring:
     password: root
 
 
-  cache:
-    type: redis #配置业务缓存类型为:redis，如果不用缓存可配置为:none
+#  cache:
+#    type: redis #配置业务缓存类型为:redis，如果不用缓存可配置为:none
+#
+#    redis:
+#      cache-null-values: true #缓存key前缀
+#      #      key-prefix: ?
+#      use-key-prefix: true #是否使用缓存key前缀
+#      time-to-live: 100s #Redis缓存ttl
 
-    redis:
-      cache-null-values: true #缓存key前缀
-      #      key-prefix: ?
-      use-key-prefix: true #是否使用缓存key前缀
-      time-to-live: 100s #Redis缓存ttl
 
+#  redis:
+#    port: 6379
+#    host: localhost
+#    database: 0 #redis数据库索引
+#    timeout: 5000ms # 与Redis 服务器建立连接的超时时间
+#    lettuce:
+#      pool:
+#        max-active: 100 #设置 Lettuce 连接池的最大活动连接数
+#        max-idle: 10 #设置 Lettuce 连接池的最大空闲连接数
+#        max-wait: -1ms #设置 Lettuce 连接池的最大等待时间，-1 表示无限等待
+#        min-idle: 2 #设置 Lettuce 连接池的最小空闲连接数
+#      shutdown-timeout: 100ms #设置 Lettuce 连接池关闭超时时间
 
-  redis:
-    port: 6379
-    host: localhost
-    database: 0 #redis数据库索引
-    timeout: 5000ms # 与Redis 服务器建立连接的超时时间
-    lettuce:
-      pool:
-        max-active: 100 #设置 Lettuce 连接池的最大活动连接数
-        max-idle: 10 #设置 Lettuce 连接池的最大空闲连接数
-        max-wait: -1ms #设置 Lettuce 连接池的最大等待时间，-1 表示无限等待
-        min-idle: 2 #设置 Lettuce 连接池的最小空闲连接数
-      shutdown-timeout: 100ms #设置 Lettuce 连接池关闭超时时间
-
-redis-prefix:
-  prefix1: main
-  prefix2: program
+#redis-prefix:
+#  prefix1: main
+#  prefix2: program
 
