@@ -1,4 +1,4 @@
-package cn.zzy.selfPractisePackage;
+package cn.zzy.selfPractisePackage.lock;
 
 /**
  * @Author Ziyun Zhou

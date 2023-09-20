@@ -12,6 +12,7 @@ import com.alibaba.fastjson2.JSONArray;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -30,4 +31,14 @@ public class MenuServiceImpl extends ServiceImpl<MenuMapper, MenuDO> implements 
 //        log.info("树形list菜单结果：{}", s);
         return JSON.parseArray(s);
     }
+
+
+    @Transactional(rollbackFor = Exception.class)
+    @Override
+    public void insertA() {
+        MenuDO menuDO = new MenuDO().setId("newId").setName("newName");
+        boolean save = save(menuDO);
+        throw new RuntimeException();
+    }
+
 }

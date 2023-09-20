@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45908d-c35a-4e43-8d95-f68d034ca65a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/redis/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/annotaions/RedisCacheAnnotaion/RedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/annotaions/RedisCacheAnnotaion/RedisCacheAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/menuController/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/menuController/MenuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/menuController/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/menuController/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/src/main/resources/redis-prefix.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/classes/redis-prefix.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/service/MenuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/selfPractisePackage/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/selfPractisePackage/lock/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/selfPractisePackage/LockPrac_ReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/selfPractisePackage/lock/LockPrac_ReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/selfPractisePackage/LockPrac_synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/selfPractisePackage/lock/LockPrac_synchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/target/classes/cn/zzy/selfPractisePackage/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/target/classes/cn/zzy/selfPractisePackage/LockPrac_ReentrantLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/target/classes/cn/zzy/selfPractisePackage/LockPrac_synchronized.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,11 +108,11 @@
   </component>
   <component name="RunManager" selected="Spring Boot.MainProgramBootApplication">
     <configuration name="LockPrac_ReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zzy.selfPractisePackage.LockPrac_ReentrantLock" />
+      <option name="MAIN_CLASS_NAME" value="cn.zzy.selfPractisePackage.lock.LockPrac_ReentrantLock" />
       <module name="sub-program-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zzy.selfPractisePackage.*" />
+          <option name="PATTERN" value="cn.zzy.selfPractisePackage.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +121,11 @@
       </method>
     </configuration>
     <configuration name="LockPrac_synchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zzy.selfPractisePackage.LockPrac_synchronized" />
+      <option name="MAIN_CLASS_NAME" value="cn.zzy.selfPractisePackage.lock.LockPrac_synchronized" />
       <module name="sub-program-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zzy.selfPractisePackage.*" />
+          <option name="PATTERN" value="cn.zzy.selfPractisePackage.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,6 +146,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testTransactional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zzy.selfPractisePackage.transaction.testTransactional" />
+      <module name="sub-program-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zzy.selfPractisePackage.transaction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MenuControllerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="main-program-adapter" />
       <extension name="coverage">
@@ -155,22 +170,6 @@
       <option name="PACKAGE_NAME" value="cn.zzy.menuController" />
       <option name="MAIN_CLASS_NAME" value="cn.zzy.menuController.MenuControllerTest" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserInfoPropertiesUtilTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="main-program-infrastructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zzy.tools.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.zzy.tools" />
-      <option name="MAIN_CLASS_NAME" value="cn.zzy.tools.UserInfoPropertiesUtilTest" />
-      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -227,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testTransactional" />
         <item itemvalue="Application.MenuController" />
         <item itemvalue="Application.LockPrac_ReentrantLock" />
         <item itemvalue="Application.LockPrac_synchronized" />
         <item itemvalue="JUnit.MenuControllerTest.test" />
-        <item itemvalue="JUnit.UserInfoPropertiesUtilTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +248,7 @@
       <workItem from="1695010253372" duration="3566000" />
       <workItem from="1695034955102" duration="4246000" />
       <workItem from="1695104779389" duration="7100000" />
-      <workItem from="1695170770098" duration="584000" />
+      <workItem from="1695170770098" duration="5144000" />
     </task>
     <servers />
   </component>

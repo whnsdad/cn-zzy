@@ -31,7 +31,6 @@ public class MenuController {
         return Result.success(menuService.getAllMenusTree());
     }
 
-
     @Autowired
     private RedisTemplate<String, String> redisTemplate = new RedisTemplate<>();
 
@@ -39,6 +38,16 @@ public class MenuController {
     @ApiOperation("测试redis")
     public void test() {
         redisTemplate.opsForValue().set("key1", "value1");
+    }
+
+    @PostMapping("/transac")
+    @ApiOperation("测试事务")
+    public void testTransactional() {
+        try {
+            menuService.insertA();
+        } catch (Exception e) {
+            log.info("exception");
+        }
     }
 
 }

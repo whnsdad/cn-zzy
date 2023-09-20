@@ -7,4 +7,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface MenuService extends IService<MenuDO> {
 
     JSONArray getAllMenusTree();
+
+    void insertA();
 }
