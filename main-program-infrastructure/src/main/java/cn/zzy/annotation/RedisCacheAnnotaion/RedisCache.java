@@ -1,4 +1,4 @@
-package cn.zzy.annotaions.RedisCacheAnnotaion;
+package cn.zzy.annotation.RedisCacheAnnotaion;
 
 import java.lang.annotation.*;
 import java.util.concurrent.TimeUnit;
@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
  * @Date 2023/9/19 16:01
  * @PackageName:cn.zzy.annotaions.RedisCacheAnnotaion
  * @ClassName: RedisCache
- * @Description: TODO
+ * @Description: 查询redis中的缓存
  * @Version 1.0
  */
 @Target(ElementType.METHOD)

@@ -1,6 +1,7 @@
 package cn.zzy.menuController;
 
 import cn.zzy.annotaions.LogPrintAnnotation.LogPrint;
+import cn.zzy.annotation.RedisCacheAnnotaion.RedisCache;
 import cn.zzy.commonDomain.Result;
 import cn.zzy.service.MenuService;
 import com.alibaba.fastjson2.JSONArray;
@@ -27,6 +28,7 @@ public class MenuController {
     @PostMapping("/list")
     @ApiOperation("查询所有菜单(按树形返回)")
     @LogPrint
+    @RedisCache
     public Result<JSONArray> getAllMenusTree() {
         return Result.success(menuService.getAllMenusTree());
     }
@@ -49,6 +51,7 @@ public class MenuController {
             log.info("exception");
         }
     }
+
 
 }
 

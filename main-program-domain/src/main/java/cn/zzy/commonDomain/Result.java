@@ -28,6 +28,10 @@ public class Result<T> implements Serializable {
 
     private T data;
 
+    // 用于@RedisCache的时候把缓存中的String还原为Result
+    public static <T> Result<T> fromString() {
+        return new Result<>();
+    }
 
     // 静态成功方法及重载
     public static <T> Result<T> success() {

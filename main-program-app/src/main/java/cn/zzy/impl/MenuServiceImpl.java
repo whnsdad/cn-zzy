@@ -28,6 +28,7 @@ public class MenuServiceImpl extends ServiceImpl<MenuMapper, MenuDO> implements 
         List<MenuTreeVO> menuVOList = menuDOList.stream().map(MenuTreeVO::to).collect(Collectors.toList());  // DO转VO
         List<MenuTreeVO> convert = MenuToTree.convert(menuVOList);
         String s = TreeListToJSON.convertTreeToJson(convert);
+        log.info(s);
 //        log.info("树形list菜单结果：{}", s);
         return JSON.parseArray(s);
     }
