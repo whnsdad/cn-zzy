@@ -33,8 +33,13 @@ public class AccountController {
     @PostMapping("/deposit")
     @ApiOperation("转账操作")
     public Result<Boolean> deposit(@RequestBody DepositDTO depositDTO) {
-
-        return accountService.deposit(depositDTO) ? Result.success() : Result.fail();
+        try {
+            Boolean deposit = accountService.deposit(depositDTO);
+        } catch (Exception e) {
+            log.info(e.getMessage());
+            return Result.fail(500, e.getMessage());
+        }
+        return Result.success("转账成功");
     }
 
 }

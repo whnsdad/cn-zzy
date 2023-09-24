@@ -1,10 +1,10 @@
 package cn.zzy.commonDomain;
 
+import java.io.Serializable;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.io.Serializable;
 
 /**
  * @Author Ziyun Zhou
@@ -28,11 +28,6 @@ public class Result<T> implements Serializable {
 
     private T data;
 
-    // 用于@RedisCache的时候把缓存中的String还原为Result
-    public static <T> Result<T> fromString() {
-        return new Result<>();
-    }
-
     // 静态成功方法及重载
     public static <T> Result<T> success() {
         return new Result<>(200, "success", null);
@@ -44,6 +39,10 @@ public class Result<T> implements Serializable {
 
     public static <T> Result<T> success(T data, String message) {
         return new Result<>(200, message, data);
+    }
+
+    public static <T> Result<T> success(String message) {
+        return new Result<>(200, message, null);
     }
 
     // 静态失败方法及重载
@@ -58,6 +57,5 @@ public class Result<T> implements Serializable {
     public static <T> Result<T> fail(Integer code, String message) {
         return new Result<>(code, message, null);
     }
-
 
 }

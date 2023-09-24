@@ -69,7 +69,7 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, AccountDO> im
             }
         } catch (Exception e) {
             log.info("出现异常：{}，触发回滚", e.getMessage());
-            throw new RuntimeException("出现异常，触发回滚");
+            throw new RuntimeException(e.getMessage());
         }
         return Boolean.TRUE;
     }

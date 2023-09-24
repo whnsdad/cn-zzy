@@ -5,26 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45908d-c35a-4e43-8d95-f68d034ca65a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/setting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/DepositServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/DepositService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/DO/AccountDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/DO/DepositRecordDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dto/account/DepositDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/enums/DepositOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/AccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/DepositMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/tools/IdGeneratorSnowFlake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/AccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/commonDomain/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/commonDomain/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/annotation/RedisCacheAnnotaion/RedisCacheAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/annotation/RedisCacheAnnotaion/RedisCacheAspect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +244,7 @@
       <workItem from="1695257760286" duration="2158000" />
       <workItem from="1695374263921" duration="2475000" />
       <workItem from="1695385667237" duration="7302000" />
-      <workItem from="1695440826421" duration="2771000" />
+      <workItem from="1695440826421" duration="4779000" />
     </task>
     <servers />
   </component>
