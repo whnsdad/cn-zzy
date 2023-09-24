@@ -34,6 +34,13 @@
             <artifactId>sub-program-tools</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+        <!--参数校验-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>6.0.22.Final</version>
+        </dependency>
     </dependencies>
 
     <build>

@@ -5,25 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45908d-c35a-4e43-8d95-f68d034ca65a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/annotation/RedisCacheAnnotaion/RedisCacheAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/DepositServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/DepositService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/DO/AccountDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/DO/DepositRecordDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dto/account/DepositDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/enums/DepositOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/DepositMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/tools/IdGeneratorSnowFlake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/menuController/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/menuController/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/menuController/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/menuController/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/commonDomain/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/commonDomain/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/tools/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/tools/PropertiesUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/tools/UserInfoPropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/tools/UserInfoPropertiesUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/target/classes/cn/zzy/tools/PropertiesUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/target/classes/cn/zzy/tools/UserInfoPropertiesUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-program-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/annotaions/LogPrintAnnotation/LogPrintAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/annotaions/LogPrintAnnotation/LogPrintAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/annotaions/RedisCacheAnnotaion/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/annotation/RedisCacheAnnotaion/RedisCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/annotaions/RedisCacheAnnotaion/RedisCacheAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-program-tools/target/classes/cn/zzy/annotaions/LogPrintAnnotation/LogPrintAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/target/classes/cn/zzy/annotaions/LogPrintAnnotation/LogPrintAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-program-tools/target/classes/cn/zzy/annotaions/RedisCacheAnnotaion/RedisCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-program-tools/target/classes/cn/zzy/annotaions/RedisCacheAnnotaion/RedisCacheAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +35,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -83,7 +85,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "EclipseFormatter",
     "settings.editor.splitter.proportion": "0.26985744",
     "spring.configuration.checksum": "237a1c3887b63b8949fd3b6d4ae06f67",
     "vue.rearranger.settings.migration": "true"
@@ -113,6 +115,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MainProgramBootApplication">
+    <configuration name="IdGeneratorSnowFlake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zzy.tools.IdGeneratorSnowFlake" />
+      <module name="sub-program-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zzy.tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LockPrac_ReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.zzy.selfPractisePackage.lock.LockPrac_ReentrantLock" />
       <module name="sub-program-tools" />
@@ -161,22 +176,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MenuControllerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="main-program-adapter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zzy.menuController.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.zzy.menuController" />
-      <option name="MAIN_CLASS_NAME" value="cn.zzy.menuController.MenuControllerTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -232,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IdGeneratorSnowFlake" />
         <item itemvalue="Application.MenuController" />
         <item itemvalue="Application.testTransactional" />
         <item itemvalue="Application.LockPrac_ReentrantLock" />
         <item itemvalue="Application.LockPrac_synchronized" />
-        <item itemvalue="JUnit.MenuControllerTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +256,8 @@
       <workItem from="1695170770098" duration="6859000" />
       <workItem from="1695257760286" duration="2158000" />
       <workItem from="1695374263921" duration="2475000" />
-      <workItem from="1695385667237" duration="2235000" />
+      <workItem from="1695385667237" duration="7302000" />
+      <workItem from="1695440826421" duration="2771000" />
     </task>
     <servers />
   </component>
