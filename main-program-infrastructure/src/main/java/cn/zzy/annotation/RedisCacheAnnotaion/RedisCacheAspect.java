@@ -61,7 +61,7 @@ public class RedisCacheAspect {
                     // 如果查到数据，按用户设置的来设置过期时间
                     redisTemplate.opsForValue().set(key, result, annotation.time(), annotation.timeunit());
                 } else {
-                    // 否则将key-null写入缓存，但是设置短过期时间，防止缓存穿透且对内存友好
+                    // 否则将key-null写入缓存，但是设置短过期时间，防止缓存穿透且对内存友好(同时也要求所有更新操作先删缓存，再更新数据库)
                     redisTemplate.opsForValue().set(key, new Object(), 5, TimeUnit.MINUTES);
                 }
 

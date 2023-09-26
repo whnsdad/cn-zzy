@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45908d-c35a-4e43-8d95-f68d034ca65a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/designPatternController/DesignPatternController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/DesignPatternServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/DesignPatternService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/AccountServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/commonDomain/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/commonDomain/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/src/test/java/cn/zzy/MainProgramBootApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/src/test/java/cn/zzy/MainProgramBootApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/annotation/RedisCacheAnnotaion/RedisCacheAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/annotation/RedisCacheAnnotaion/RedisCacheAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +23,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="AnnotationType" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -50,34 +52,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "D:/2022/0000WorkSpace/main-program/main-program-infrastructure/src/main/java/cn/zzy/annotation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "EclipseFormatter",
-    "settings.editor.splitter.proportion": "0.26985744",
-    "spring.configuration.checksum": "237a1c3887b63b8949fd3b6d4ae06f67",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/2022/0000WorkSpace/main-program/main-program-infrastructure/src/main/java/cn/zzy/annotation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;EclipseFormatter&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.26985744&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;237a1c3887b63b8949fd3b6d4ae06f67&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\2022\0000WorkSpace\main-program\main-program-infrastructure\src\main\resources" />
@@ -87,11 +89,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.zzy.designPatternController" />
       <recent name="cn.zzy.menuController" />
       <recent name="cn.zzy.tools" />
       <recent name="cn.zzy.impl" />
       <recent name="cn.zzy.menuTreeTools" />
-      <recent name="cn.zzy.VO" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -101,7 +103,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainProgramBootApplication">
+  <component name="RunManager" selected="JUnit.MainProgramBootApplicationTests.MockMvcTest">
     <configuration name="IdGeneratorSnowFlake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.zzy.tools.IdGeneratorSnowFlake" />
       <module name="sub-program-tools" />
@@ -117,19 +119,6 @@
     </configuration>
     <configuration name="LockPrac_ReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.zzy.selfPractisePackage.lock.LockPrac_ReentrantLock" />
-      <module name="sub-program-tools" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zzy.selfPractisePackage.lock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LockPrac_synchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zzy.selfPractisePackage.lock.LockPrac_synchronized" />
       <module name="sub-program-tools" />
       <extension name="coverage">
         <pattern>
@@ -163,6 +152,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainProgramBootApplicationTests.MockMvcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="main-program-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zzy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.zzy" />
+      <option name="MAIN_CLASS_NAME" value="cn.zzy.MainProgramBootApplicationTests" />
+      <option name="METHOD_NAME" value="MockMvcTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainProgramBootApplicationTests.MockMvcTest" />
         <item itemvalue="Application.IdGeneratorSnowFlake" />
         <item itemvalue="Application.MenuController" />
         <item itemvalue="Application.testTransactional" />
         <item itemvalue="Application.LockPrac_ReentrantLock" />
-        <item itemvalue="Application.LockPrac_synchronized" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +249,10 @@
       <workItem from="1695257760286" duration="2158000" />
       <workItem from="1695374263921" duration="2475000" />
       <workItem from="1695385667237" duration="7302000" />
-      <workItem from="1695440826421" duration="4779000" />
+      <workItem from="1695440826421" duration="7129000" />
+      <workItem from="1695606722198" duration="1240000" />
+      <workItem from="1695626492203" duration="518000" />
+      <workItem from="1695690640945" duration="4314000" />
     </task>
     <servers />
   </component>
