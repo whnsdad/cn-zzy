@@ -5,39 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45908d-c35a-4e43-8d95-f68d034ca65a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/handler/GlobalResponseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/common/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/enums/ServiceExpectionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/webMvcConfig/SpringWebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/interceptor/BaseInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/controller/account/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/baseController/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/controller/base/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/designPatternController/DesignPatternController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/controller/designPattern/DesignPatternController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/menuController/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/controller/menu/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/purchase/PurchaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/controller/purchase/PurchaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/classpath.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/AccountController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/baseController/BaseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/designPatternController/DesignPatternController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/menuController/MenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/purchase/PurchaseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/DepositServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/DepositServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/DepositService.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/DepositService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/MenuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/DO/AccountDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/AccountDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/DO/DepositRecordDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/DepositRecordDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/DO/MenuDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/MenuDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/commonDomain/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/common/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/target/classes/classpath.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/target/classes/cn/zzy/commonDomain/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/AccountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/DepositMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/DepositMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/MenuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/vo/MenuTreeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/vo/MenuTreeVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/test/java/cn/zzy/vo/MenuTreeVOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/test/java/cn/zzy/vo/MenuTreeVOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/controller/base/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/controller/base/BaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/knife4j/BaseKnife4jConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/knife4j/Knife4jConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/knife4j/Knife4jConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/knife4j/Knife4jProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/knife4j/BaseKnife4jConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/knife4j/Knife4jConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/knife4j/Knife4jConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/knife4j/Knife4jProperties$Knife4jPropertiesBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/knife4j/Knife4jProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/target/test-classes/cn/zzy/impl/MenuServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/target/classes/classpath.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/target/test-classes/classpath.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-boot/target/test-classes/cn/zzy/MainProgramBootApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/target/test-classes/cn/zzy/tools/UserInfoPropertiesUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/target/test-classes/cn/zzy/vo/MenuTreeVOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/annotaions/LogPrintAnnotation/LogPrintAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/src/main/java/cn/zzy/annotaions/LogPrintAnnotation/LogPrintAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/target/classes/classpath.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/target/classes/cn/zzy/annotaions/LogPrintAnnotation/LogPrintAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/sub-program-tools/target/classes/cn/zzy/annotaions/LogPrintAnnotation/LogPrintAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-program-tools/target/test-classes/cn/zzy/menuTreeTools/TreeListToJSONTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,34 +65,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/2022/0000WorkSpace/main-program/main-program-infrastructure/src/main/java/cn/zzy/annotation&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;EclipseFormatter&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.26985744&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;237a1c3887b63b8949fd3b6d4ae06f67&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "D:/2022/0000WorkSpace/main-program/main-program-app/src/main/java/cn/zzy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "EclipseFormatter",
+    "settings.editor.splitter.proportion": "0.26985744",
+    "spring.configuration.checksum": "237a1c3887b63b8949fd3b6d4ae06f67",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\2022\0000WorkSpace\main-program\main-program-infrastructure\src\main\resources" />
@@ -278,7 +267,10 @@
       <workItem from="1695626492203" duration="518000" />
       <workItem from="1695690640945" duration="5138000" />
       <workItem from="1695777381373" duration="1372000" />
-      <workItem from="1695778769821" duration="4809000" />
+      <workItem from="1695778769821" duration="6671000" />
+      <workItem from="1695788155173" duration="117000" />
+      <workItem from="1695788284398" duration="1780000" />
+      <workItem from="1695812387017" duration="2948000" />
     </task>
     <servers />
   </component>
