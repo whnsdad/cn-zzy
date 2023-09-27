@@ -1,10 +1,10 @@
 package cn.zzy.vo;
 
-
-import cn.zzy.DO.MenuDO;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
+
+import cn.zzy.dos.MenuDO;
 
 /**
  * @Author Ziyun Zhou

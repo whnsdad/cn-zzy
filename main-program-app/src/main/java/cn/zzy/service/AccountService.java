@@ -1,8 +1,9 @@
 package cn.zzy.service;
 
-import cn.zzy.DO.AccountDO;
-import cn.zzy.dto.account.DepositDTO;
 import com.baomidou.mybatisplus.extension.service.IService;
+
+import cn.zzy.dos.AccountDO;
+import cn.zzy.dto.account.DepositDTO;
 
 /**
  * @Author Ziyun Zhou

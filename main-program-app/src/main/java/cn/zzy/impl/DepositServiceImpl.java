@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
-import cn.zzy.DO.DepositRecordDO;
+import cn.zzy.dos.DepositRecordDO;
 import cn.zzy.mapper.DepositMapper;
 import cn.zzy.service.DepositService;
 

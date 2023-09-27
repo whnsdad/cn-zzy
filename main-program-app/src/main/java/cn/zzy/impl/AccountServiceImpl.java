@@ -8,8 +8,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
-import cn.zzy.DO.AccountDO;
-import cn.zzy.DO.DepositRecordDO;
+import cn.zzy.dos.AccountDO;
+import cn.zzy.dos.DepositRecordDO;
 import cn.zzy.dto.account.DepositDTO;
 import cn.zzy.mapper.AccountMapper;
 import cn.zzy.service.AccountService;

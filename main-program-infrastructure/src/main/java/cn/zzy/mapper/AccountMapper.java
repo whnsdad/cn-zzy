@@ -1,8 +1,10 @@
 package cn.zzy.mapper;
 
-import cn.zzy.DO.AccountDO;
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
+import cn.zzy.dos.AccountDO;
 
 /**
  * @Author Ziyun Zhou
@@ -13,5 +15,4 @@ import org.apache.ibatis.annotations.Mapper;
  * @Version 1.0
  */
 @Mapper
-public interface AccountMapper extends BaseMapper<AccountDO> {
-}
+public interface AccountMapper extends BaseMapper<AccountDO> {}

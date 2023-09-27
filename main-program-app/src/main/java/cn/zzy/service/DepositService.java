@@ -2,7 +2,7 @@ package cn.zzy.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 
-import cn.zzy.DO.DepositRecordDO;
+import cn.zzy.dos.DepositRecordDO;
 
 /**
  * @Author Ziyun Zhou

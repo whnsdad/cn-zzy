@@ -4,7 +4,7 @@ import org.apache.ibatis.annotations.Mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
-import cn.zzy.DO.DepositRecordDO;
+import cn.zzy.dos.DepositRecordDO;
 
 /**
  * @Author Ziyun Zhou
