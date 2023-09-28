@@ -1,4 +1,4 @@
-package cn.zzy.config.webMvcConfig;
+package cn.zzy.config;
 
 import java.nio.charset.Charset;
 import java.util.Arrays;

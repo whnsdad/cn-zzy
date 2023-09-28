@@ -1,4 +1,4 @@
-package cn.zzy.config.knife4j;
+package cn.zzy.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
