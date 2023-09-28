@@ -2,7 +2,8 @@ package cn.zzy.impl;
 
 import java.math.BigDecimal;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.annotation.Resource;
+
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -29,7 +30,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class AccountServiceImpl extends ServiceImpl<AccountMapper, AccountDO> implements AccountService {
 
-    @Autowired
+    @Resource
     private DepositService depositService;
 
     @Override
@@ -40,12 +41,12 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, AccountDO> im
             // 转出
             AccountDO accountDO1 = getById(depositDTO.getUserId());
             if (amount.compareTo(accountDO1.getMoney()) > 0) {
-                log.info("转账金额{}超过用户账户金额{}", amount, accountDO1.getMoney());
+                log.warn("转账金额{}超过用户账户金额{}", amount, accountDO1.getMoney());
                 throw new Exception("转账金额超过用户账户金额");
             }
             boolean out = updateById(accountDO1.setMoney(accountDO1.getMoney().subtract(amount)));
             if (!out) {
-                log.info("用户{}转账过程发生错误", depositDTO.getUserId());
+                log.warn("用户{}转账过程发生错误", depositDTO.getUserId());
                 throw new Exception("转账过程1发生错误");
             }
 
@@ -53,7 +54,7 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, AccountDO> im
             AccountDO accountDO2 = getById(depositDTO.getToId());
             boolean in = updateById(accountDO2.setMoney(accountDO2.getMoney().add(amount)));
             if (!in) {
-                log.info("转入用户{}过程发生错误", depositDTO.getToId());
+                log.warn("转入用户{}过程发生错误", depositDTO.getToId());
                 throw new Exception("转账过程2发生错误");
             }
 
@@ -64,14 +65,23 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, AccountDO> im
                 .setUserToId(depositDTO.getToId());
             Boolean saveRecord = depositService.saveDepositRecord(depositRecordDO);
             if (!saveRecord) {
-                log.info("保存转账记录发生错误：{}", depositRecordDO);
+                log.warn("保存转账记录发生错误：{}", depositRecordDO);
                 throw new Exception("保存转账记录发生错误");
             }
         } catch (Exception e) {
-            log.info("出现异常：{}，触发回滚", e.getMessage());
+            log.warn("出现异常：{}，触发回滚", e.getMessage());
             throw new RuntimeException(e.getMessage());
+        } finally {
+            AccountDO accountDO1 = getById(depositDTO.getUserId());
+            log.info("当前账户余额；{}", accountDO1.getMoney());
         }
         return Boolean.TRUE;
+    }
+
+    @Override
+    public Boolean deposit2(DepositDTO depositDTO) {
+        log.info("invoking deposit2");
+        return true;
     }
 
 }

@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import cn.zzy.common.Result;
 import cn.zzy.dto.account.DepositDTO;
+import cn.zzy.impl.AccountServiceImpl;
+import cn.zzy.proxy.AccountProxy;
 import cn.zzy.service.AccountService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -40,6 +42,21 @@ public class AccountController {
             return Result.fail(500, e.getMessage());
         }
         return Result.success("转账成功");
+    }
+
+    @PostMapping("/deposit2")
+    @ApiOperation("转账操作-测试动态代理")
+    public Result<Boolean> deposit2(@RequestBody DepositDTO depositDTO) {
+        AccountServiceImpl accountService1 = new AccountServiceImpl();
+        AccountProxy accountProxy = new AccountProxy();
+        AccountService proxy = (AccountService)accountProxy.getProxy(accountService1);
+        try {
+            Boolean deposit = proxy.deposit2(depositDTO);
+        } catch (Exception e) {
+            log.warn(e.getMessage());
+            return Result.fail(500, e.getMessage());
+        }
+        return Result.success();
     }
 
 }
