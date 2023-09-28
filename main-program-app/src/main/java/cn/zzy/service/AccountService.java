@@ -16,4 +16,6 @@ import cn.zzy.dto.account.DepositDTO;
 public interface AccountService extends IService<AccountDO> {
 
     Boolean deposit(DepositDTO depositDTO);
+
+    Boolean deposit2(DepositDTO depositDTO);
 }
