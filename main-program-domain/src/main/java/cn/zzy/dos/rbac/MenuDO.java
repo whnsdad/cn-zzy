@@ -1,4 +1,4 @@
-package cn.zzy.dos;
+package cn.zzy.dos.rbac;
 
 import java.util.Date;
 

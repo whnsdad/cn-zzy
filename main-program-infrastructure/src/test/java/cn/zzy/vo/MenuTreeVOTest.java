@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
-import cn.zzy.dos.MenuDO;
+import cn.zzy.dos.rbac.MenuDO;
 
 /**
  * @Author Ziyun Zhou

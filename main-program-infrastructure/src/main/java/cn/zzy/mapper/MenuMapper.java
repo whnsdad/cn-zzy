@@ -4,7 +4,7 @@ import org.apache.ibatis.annotations.Mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
-import cn.zzy.dos.MenuDO;
+import cn.zzy.dos.rbac.MenuDO;
 
 /**
  * @Author Ziyun Zhou
