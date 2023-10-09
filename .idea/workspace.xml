@@ -5,39 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45908d-c35a-4e43-8d95-f68d034ca65a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/sql/sys_login_info.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/BaseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/rbac/LoginInfoDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dto/login/LoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dto/login/LoginVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/MyCodeBlockPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-program-app/src/test/java/cn/zzy/impl/CodeBlockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/controller/base/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/controller/sys/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/controller/menu/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/src/main/java/cn/zzy/controller/menu/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/controller/base/BaseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/controller/menu/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-adapter/target/classes/cn/zzy/controller/menu/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/Knife4jConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/Knife4jConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/impl/MenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/src/main/java/cn/zzy/service/MenuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/Knife4jConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/Knife4jConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/config/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/impl/MenuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-app/target/classes/cn/zzy/service/MenuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-boot/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-boot/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/MenuDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/rbac/MenuDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/RoleDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/rbac/RoleDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/RoleMenuDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/rbac/RoleMenuDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/rbac/UserDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/UserRoleDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-domain/src/main/java/cn/zzy/dos/rbac/UserRoleDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-domain/target/classes/cn/zzy/dos/MenuDO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/mapper/MenuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/main/java/cn/zzy/vo/MenuTreeVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/src/test/java/cn/zzy/vo/MenuTreeVOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/src/test/java/cn/zzy/vo/MenuTreeVOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/target/classes/cn/zzy/VO/MenuTreeVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-program-infrastructure/target/classes/cn/zzy/mapper/MenuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/main-program-infrastructure/target/classes/cn/zzy/mapper/MenuMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-program-app/src/test/java/cn/zzy/impl/MenuServiceImplTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,26 +101,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainProgramBootApplication">
+  <component name="RunManager" selected="JUnit.CodeBlockTest.test">
     <configuration name="IdGeneratorSnowFlake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.zzy.tools.IdGeneratorSnowFlake" />
       <module name="sub-program-tools" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.zzy.tools.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LockPrac_ReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zzy.selfPractisePackage.lock.LockPrac_ReentrantLock" />
-      <module name="sub-program-tools" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zzy.selfPractisePackage.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,6 +137,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeBlockTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="main-program-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zzy.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.zzy.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.zzy.impl.CodeBlockTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -250,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CodeBlockTest.test" />
         <item itemvalue="JUnit.MainProgramBootApplicationTests.MockMvcTest" />
         <item itemvalue="Application.IdGeneratorSnowFlake" />
         <item itemvalue="Application.MenuController" />
         <item itemvalue="Application.testTransactional" />
-        <item itemvalue="Application.LockPrac_ReentrantLock" />
       </list>
     </recent_temporary>
   </component>
@@ -288,6 +262,7 @@
       <workItem from="1695865472362" duration="1903000" />
       <workItem from="1696074726003" duration="444000" />
       <workItem from="1696469697844" duration="718000" />
+      <workItem from="1696816678474" duration="943000" />
     </task>
     <servers />
   </component>
