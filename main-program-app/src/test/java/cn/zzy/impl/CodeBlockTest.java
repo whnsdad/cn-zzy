@@ -22,4 +22,5 @@ public class CodeBlockTest {
         MyCodeBlockPractice myCodeBlockPractice1 = new MyCodeBlockPractice();
         MyCodeBlockPractice myCodeBlockPractice2 = new MyCodeBlockPractice();
     }
+
 }

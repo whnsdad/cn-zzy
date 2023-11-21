@@ -19,6 +19,11 @@ spring:
       retries: 3 # 发送失败时，重试发送的次数
       key-serializer: org.apache.kafka.common.serialization.StringSerializer # 消息的 key 的序列化
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer # 消息的 value 的序列化
+    #      batch-size: 16384 # 每次批量发送消息的最大数量
+    #      buffer-memory: 33554432 # 每次批量发送消息的最大内存
+    #      properties:
+    #        linger:
+    #          ms: 30000 # 批处理延迟时间上限。这里配置为 30 * 1000 ms 过后，不管是否消息数量是否到达 batch-size 或者消息大小到达 buffer-memory 后，都直接发送一次请求
     # Kafka Consumer 配置项
     consumer:
       auto-offset-reset: earliest # 设置消费者分组最初的消费进度为 earliest 。可参考博客 https://blog.csdn.net/lishuangzhe7047/article/details/74530417 理解
@@ -35,7 +40,7 @@ spring:
 
   redis:
     port: 6379
-    host: localhost
+    host: 101.34.219.189
     database: 0 #redis数据库索引
     timeout: 5000ms # 与Redis 服务器建立连接的超时时间
     lettuce:
